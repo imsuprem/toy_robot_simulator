@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotSimulatorExe", "ToyRobotSimulatorExe\ToyRobotSimulatorExe.csproj", "{4BDE52DA-48FA-47CC-9FCC-88CC913AF57F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobotSimulator", "ToyRobotSimulator\ToyRobotSimulator.csproj", "{8387195A-5626-44CD-BBA3-ABF2938E6566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToyRobot.Specs", "ToyRobot.Specs\ToyRobot.Specs.csproj", "{F52995BD-BEC5-4DDB-9252-50812679385C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BDE52DA-48FA-47CC-9FCC-88CC913AF57F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDE52DA-48FA-47CC-9FCC-88CC913AF57F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDE52DA-48FA-47CC-9FCC-88CC913AF57F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDE52DA-48FA-47CC-9FCC-88CC913AF57F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8387195A-5626-44CD-BBA3-ABF2938E6566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8387195A-5626-44CD-BBA3-ABF2938E6566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8387195A-5626-44CD-BBA3-ABF2938E6566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8387195A-5626-44CD-BBA3-ABF2938E6566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F52995BD-BEC5-4DDB-9252-50812679385C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F52995BD-BEC5-4DDB-9252-50812679385C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F52995BD-BEC5-4DDB-9252-50812679385C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F52995BD-BEC5-4DDB-9252-50812679385C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
