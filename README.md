@@ -89,7 +89,7 @@ Expected output
 
 A BDD approach has been followed to build the solution. As it is very obvious from the problem statement that primarily the system  consists of a state machine (the robot) whose next state is determined by the input (commands like MOVE, PLACE etc.) with the constraints defined in ([constraints](./README.md#constraints))
 
-SpecFlow with nUnit is used to write the Feature file and step defintions. [RobotSimulator.feature](../ToyRobot.Specs/RobotSimulator.feature)
+SpecFlow with nUnit is used to write the Feature file and step defintions. [RobotSimulator.feature](./ToyRobot.Specs/RobotSimulator.feature)
 
 ## Setup
 
