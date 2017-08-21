@@ -91,10 +91,20 @@ A BDD approach has been followed to build the solution. As it is very obvious fr
 
 SpecFlow with nUnit is used to write the Feature file and step defintions. [RobotSimulator.feature](./ToyRobot.Specs/RobotSimulator.feature)
 
+A sample unit test is also provided in ToyRobot.Specs/RobotSimulatorTests.cs as in a practical scenario sometimes an admixture of BBD and TDD approach is required, BDD to build the right thing and TDD to build the thing right.
+
+ToyRobotSimulator is the main class library where the code resides. As we see that commands can be issued to the robot and then the robot acts on it, the Command Pattern to buuild the commands looked the right choice, it makes it easy to add any new commands in future. As there is a repetitive mechanism in processing of commands, e.g. check if command is executable and valid, check if command will not cause the robot to fall etc. Template Mathod could be used in future to enforce certain behaviours to be implemented for each command.
+
+
+The Commander knows about the Table and Robot and has the responsibility to Create the correct concrete Command object based on the command string passed.
+Now each concrete command is a self sufficient entity in itself that has a responsibility of executing the command on the Robot. This takes care of a hypothetical scenario where we want to decouple Command Dispatcher and Command Processor through a message bus. Command objetcs are pushed to a Message Bus and a Command Processor process them accordingly.
+
+
 ## Setup
 
 (Pre requisites)
  * Visual Studio 2015 with nUnit Test Adapter installed to run the tests. 
  * Clone the repository
+ * Open the solution in Visual Studio and use `Test>Window>Test Explorer` to run the tests. 
  * An exe (Console application project is also provided to test the simulator in command line)
  
